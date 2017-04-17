@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Consumer Around</string>
+
+    <string name="label_player_number">Player Number: </string>
+    <string name="label_player_date_birth">Birth date: </string>
+    <string name="label_player_nationality">Nationality: </string>
+
+    <!-- Buttons Label -->
+    <string name="label_button_do_abort">Abort</string>
+    <string name="label_button_do_program">Program</string>
+    <string name="label_button_snapshot">Snapshot Activity</string>
+    <string name="label_button_fence">Fence Activity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="label_button_get_snapshot">Get Snapshot</string>
+
+    <string name="label_user_activity">User Activity</string>
+    <string name="label_headphones">Headphones</string>
+    <string name="label_location">Location</string>
+    <string name="label_weather">Weather</string>
+    <string name="label_places">Places</string>
+    <string name="label_beacon">Beacon</string>
+    <string name="label_time">Time</string>
+
+    <string name="add_fence">Check</string>
+    <string name="remove_fence">Remove Fence</string>
+    <string name="activity_start">Activity Start</string>
+    <string name="activity_elapsed">Elapsed Time</string>
+    <string name="probable_activity">Probable Activity</string>
+    <string name="activity_confidence">Activity confidence</string>
+
+    <string name="action1_text">Activity Start</string>
+    <string name="action2_text">Probable Activity</string>
+    <string name="action3_text">Activity confidence</string>
+</resources>

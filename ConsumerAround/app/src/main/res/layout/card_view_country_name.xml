@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_component_card_view_fixtures_list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardPreventCornerOverlap="false"
+    card_view:cardUseCompatPadding="true"
+    card_view:contentPadding="3dp"
+    card_view:cardCornerRadius="8dp"
+    card_view:cardElevation="9dp"
+    card_view:cardBackgroundColor="@color/backgroundCardViewFixture2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal">
+
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dip" >
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:textColor="@color/text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_country_id"
+                    android:text="1"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:textColor="@color/text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" - "
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:textColor="@color/text_color"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textview_country_name"
+                    android:text="United States"
+                    android:textSize="26sp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

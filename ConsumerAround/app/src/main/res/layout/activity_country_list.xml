@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:background="@drawable/city_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="consumer.com.consumeraround.activities.CountryListActivity">
+
+        <include layout="@layout/app_bar_layout"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="368dp"
+            android:layout_height="551dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/recycler_view_country_list"
+            tools:layout_editor_absoluteY="8dp"
+            tools:layout_editor_absoluteX="8dp" />
+
+    </LinearLayout>
+
+</layout>

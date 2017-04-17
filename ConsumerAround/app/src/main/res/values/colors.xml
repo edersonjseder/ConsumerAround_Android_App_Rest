@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Color Custom progress bar dialog -->
+    <color name="foreground">#7d9fcf</color>
+    <color name="background">#b3b3e5</color>
+    <color name="transparent">#30FFFFFF</color>
+
+    <!-- Color card view component background -->
+    <color name="backgroundCardViewFixture">#cce6ff</color>
+    <color name="backgroundCardViewFixture2">#1c6c93</color>
+
+    <color name="colorLabel">#ff303f9f</color>
+    <color name="colorLabel2">#e6ffff</color>
+
+    <color name="pitch">#81C784</color>
+    <color name="dark">#090909</color>
+
+    <color name="text_color">#FFFFFF</color>
+    <color name="competition_info_text_color">#e6f3ff</color>
+</resources>
